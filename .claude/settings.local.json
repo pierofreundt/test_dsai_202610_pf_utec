@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"c:/Users/Lenovo/.local/bin/python3.14.exe\" -m pip install ipykernel -U --user --force-reinstall)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(uv venv *)",
+      "PowerShell(uv pip *)",
+      "PowerShell(& \".venv\\\\Scripts\\\\python.exe\" -m ipykernel install --user --name=\"data-engeniering\" --display-name=\"Python 3.14 \\(DATA ENGENIERING\\)\")",
+      "PowerShell(python --version; python -m pip show pytz)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\DATA ENGENIERING\\\\.venv\\\\Scripts\" | Select-Object Name; & \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\DATA ENGENIERING\\\\.venv\\\\Scripts\\\\python.exe\" -m ensurepip --version)",
+      "PowerShell(& \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\DATA ENGENIERING\\\\.venv\\\\Scripts\\\\python.exe\" -m pip install pytz)",
+      "PowerShell(python -c \"import os; print\\(os.path.join\\('https://raw.githubusercontent.com/AngelTintaya/datasets/refs/heads/main', 'netflix_titles.csv'\\)\\)\")",
+      "PowerShell(& \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\DATA ENGENIERING\\\\.venv\\\\Scripts\\\\python.exe\" -m pip install requests)"
+    ]
+  }
+}

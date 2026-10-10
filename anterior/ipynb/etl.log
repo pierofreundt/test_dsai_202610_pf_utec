@@ -1,0 +1,6 @@
+2026-09-19 13:15:46,644 - ETL - CRITICAL - Mensaje crítico
+2026-09-19 13:15:58,551 - ETL - DEBUG - Mensaje modo DEBUG
+2026-09-19 13:15:58,552 - ETL - INFO - Mensaje informativo
+2026-09-19 13:15:58,553 - ETL - WARNING - Mensaje de peligro
+2026-09-19 13:15:58,554 - ETL - ERROR - Mensaje de error
+2026-09-19 13:15:58,554 - ETL - CRITICAL - Mensaje crítico
